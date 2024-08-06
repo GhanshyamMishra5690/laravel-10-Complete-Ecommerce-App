@@ -61,11 +61,16 @@ Welcome to the Laravel 10 Ecommerce Project! This project is designed to offer a
 - Node.js and npm
 
 ### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/GhanshyamMishra5690/laravel-10-Complete-Ecommerce-App.git
-   cd laravel-10-Complete-Ecommerce-App
-
+1. Clone the repository: 
+2. Install PHP Dependencies: composer install
+3. Copy the .env.example file to .env:
+4. Generate Application Key: : php artisan key:generate
+5. Configure Database Settings: using .env file
+6. If you plan to use PayPal, add your Braintree credentials to the .env file.
+7. Import Database Schema: database/sql dump file
+8. Install Node.js Dependencies and Compile Assets : npm install & npm run dev
+9. Create Symbolic Link for Storage:  php artisan storage:link
+10. Start Laravel Development Server: php artisan serve
  
  
  ## Author Contact
