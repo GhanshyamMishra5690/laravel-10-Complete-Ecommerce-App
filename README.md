@@ -77,6 +77,6 @@ Welcome to the Laravel 10 Ecommerce Project! This project is designed to offer a
   ## License
   This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.<br />
 <hr>
-  Copyright © 2023 [Ghanshyam Mishra.](https://raiprajwal.com/)
+  Copyright © 2023 [Ghanshyam Mishra.](<a href="https://www.instagram.com/webstack_development/?hl=en">Instagram Profile</a>)
   
-<p style="text-align:center">Thank You so much for your time !!!</p>
+<p style="text-align:center">Thank You !</p>
