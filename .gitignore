@@ -1,0 +1,19 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled Laravel files
+/vendor/
+composer.lock
+
+# Ignore Laravel environment variables file
+.env
+  
+/.vscode/
+
+
+# Ignore deployment specific files
+.vagrant
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
