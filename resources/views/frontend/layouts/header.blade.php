@@ -22,7 +22,7 @@
                     <div class="right-content">
                         <ul class="list-main">
                                     <li> 
-                                        <ul class="nav  "> 
+                                        <ul class="nav "> 
                                             <li  class="lang-text"><a href="javascript:void(0);">English<i class="ti-angle-down"></i></a>
                                                 <ul class="dropdown  lang-dropdown border-0 shadow">
                                                 <li class="lang-nav"><a href="#">English</a></li>
@@ -42,7 +42,7 @@
                                 @endif
                                 <li><i class="ti-power-off"></i> <a href="{{route('user.logout')}}">Logout</a></li> 
                             @else 
-                                <li><i class="ti-power-off"></i><a href="{{route('login.form')}}">Login /</a> <a href="{{route('register.form')}}">Register</a></li>
+                                <li><i class="ti-power-off"></i> <a href="{{route('login.form')}}">Login /</a> <a href="{{route('register.form')}}">Register</a></li>
                             @endauth
                         </ul>
                     </div> 
