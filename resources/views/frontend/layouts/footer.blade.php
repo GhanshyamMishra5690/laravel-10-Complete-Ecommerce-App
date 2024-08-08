@@ -151,4 +151,10 @@
 
 			});
 		});
+		$(document).ready(function() {
+            $('.filter-tope-group .btn').click(function() {
+                $('.filter-tope-group .btn').css({'background': 'none', 'color': 'black'});
+                $(this).css({'background': 'black', 'color': 'white'});
+            });
+        });
 	  </script>

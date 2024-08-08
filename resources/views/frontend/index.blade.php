@@ -89,12 +89,12 @@
                                     // dd($categories);
                                 @endphp
                                 @if($categories)
-                                <button class="btn" style="background:black"data-filter="*">
+                                <button class="btn product-tab" style="background:black;" data-filter="*">
                                     All Products
                                 </button>
                                     @foreach($categories as $key=>$cat)
 
-                                    <button class="btn" style="background:none;color:black;"data-filter=".{{$cat->id}}">
+                                    <button class="btn product-tab" style="background:none;color:black;"data-filter=".{{$cat->id}}">
                                         {{$cat->title}}
                                     </button>
                                     @endforeach

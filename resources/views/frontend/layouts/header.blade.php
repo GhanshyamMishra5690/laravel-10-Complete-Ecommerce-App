@@ -54,7 +54,7 @@
     <div class="middle-inner">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 col-md-2 col-12">
+                <div class="col-lg-4 col-md-2 col-12">
                     <!-- Logo -->
                     <div class="logo">
                         @php
@@ -70,7 +70,7 @@
                         <div class="search-top">
                             <form class="search-form">
                                 <input type="text" placeholder="Search here..." name="search">
-                                <button value="search" type="submit"><i class="ti-search"></i></button>
+                                <button value="search" class="search-input" type="submit"><i class="ti-search"></i></button>
                             </form>
                         </div>
                         <!--/ End Search Form -->
@@ -78,7 +78,7 @@
                     <!--/ End Search Form -->
                     <div class="mobile-nav"></div>
                 </div>
-                <div class="col-lg-8 col-md-7 col-12">
+                <div class="col-lg-6 col-md-7 col-12">
                     <div class="search-bar-top">
                         <div class="search-bar">
                             <select>

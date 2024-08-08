@@ -193,6 +193,9 @@ Version:1.0
 	border-radius: 0px;
 	text-transform:uppercase;
 }
+.product-tab {
+	padding: 13px 15px !important;
+}
 .btn:hover{
 	color:#fff;
 	background:#F7941D;
@@ -631,7 +634,7 @@ Version:1.0
 }
 /* Header Middle */
 .header.shop .search-bar-top {
-	text-align: center;
+	text-align: right;
 	margin-top: 10px;
 }
 .header.shop .search-bar {
@@ -643,30 +646,29 @@ Version:1.0
 	position: relative;
 }
 .header.shop .search-bar {
-	width: 535px;
-	height: 50px;
-	display: inline-block;
-	background: #fff;
-	position: relative;
-	margin: 0;
-	line-height: 45px;
-	border-radius: 5px;
-	border: 1px solid #ececec;
+	width: 450px;
+    height: 50px;
+    display: inline-block;
+    background: #f3f4f7;
+    position: relative;
+    margin: 0;
+    line-height: 45px;
+    border-radius: 5px;
+    border: 1px solid #f3f4f7;
 }
 .header.shop .nice-select {
 	clear: initial;
-	margin: 0;
-	height: 48px;
-	width: 150px;
-	border: none;
-	text-align: center;
-	background: transparent;
-	text-transform: capitalize;
-	padding: 0 0 0 20px;
-	border-right: 1px solid #eee;
-	line-height: 50px;
-	font-size: 14px;
-	font-weight: 400;
+    margin: 0;
+    height: 48px;
+    width: 123px;
+    border: none; 
+    background: transparent;
+    text-transform: capitalize;
+    padding: 0 0 0 10px;
+    border-right: 1px solid #eee;
+    line-height: 50px;
+    font-size: 13px;
+    font-weight: 400;
 }
 .header.shop .nice-select::after {
 	border-color: #666;
@@ -710,8 +712,8 @@ Version:1.0
 	width: 62px;
 	text-align: center;
 	font-size: 18px;
-	color: #fff;
-	background: #333333;
+	color: #0b0b0b;
+    background: #f3f4f7;
 	position: absolute;
 	right: -2px;
 	top: -1px;
@@ -721,9 +723,10 @@ Version:1.0
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
-.header.shop .search-bar .btnn:hover{
-	color:#fff;
-	background:#F7941D;
+.header.shop .search-bar input:hover, .header.shop .search-bar input:active, .header.shop .search-bar input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 /* Search Form */
 .header.shop .search-top {
@@ -1709,7 +1712,7 @@ Version:1.0
    Start Single Product CSS
 ========================================*/
 .product-area .nav-tabs {
-	text-align: center;
+	text-align: right;
 	display: inline-block;
 	width: 100%;
 	border:none;
